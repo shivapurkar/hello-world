@@ -9,8 +9,12 @@ steps to configure git on windows 7
 5) create dir/folder on your computer to sych with github account
 6) go to dir/folder from your git bash.
 7) now add your new files which is created or edited by you to put in git repo by following command.
-	git add
+	git add file name with extension
 8) verify your uploaded file by below command
     git status
 9) to commit/save file on git hub account below is the command.
 	git commit -m "commit description" filename
+10) to transfer your file to git hub repo below is the command.
+    git push -u origin master
+11) now bash will ask your git username and password enter your git username and password.
+12) go to your https://github.com/ and refresh your repo page you will see your new file added from your computer to git account.
