@@ -1,0 +1,30 @@
+
+steps to configure git on windows 7
+1) download git sdk for windows 64/32 bit
+2) run the setup files
+3) get git bash
+4) enter your git user name and email by below command in your git bash
+	git config --global user.name "<yourusername>"
+	git config --global user.email <yourgithubemailid>\
+5) create dir/folder on your computer to sych with github account
+6) go to dir/folder from your git bash.
+7) now add your new files which is created or edited by you to put in git repo by following command.
+	git add file name with extension
+8) verify your uploaded file by below command
+    git status
+9) to commit/save file on git hub account below is the command.
+	git commit -m "commit description" filename
+10) to transfer your file to git hub repo below is the command.
+    git push -u origin master
+11) now bash will ask your git username and password enter your git username and password.
+12) go to your https://github.com/ and refresh your repo page you will see your new file added from your computer to git account.
+
+if you make changes again to same file you have to start with status command from your git bash.
+git status
+
+1.git status
+	it will display modified status in red color
+2.git commit -m "commit description" filename
+3.git push -u origin master
+4. now bash will ask your git username and password enter your git username and password.
+5. go to your https://github.com/ and refresh your repo page you will see your new file added from your computer to git account.
